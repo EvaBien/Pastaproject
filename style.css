@@ -1,0 +1,51 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+#pastaBackground {
+    position: fixed;
+    width: 100%;
+}
+
+#screen {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 900px;
+    height: 300px;
+    background-color: white;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#link {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 200px;
+    height: 20px;
+    background-color: #e4a637;
+    border-radius: 15px;
+    margin-bottom: 60px;
+
+    text-align: center;
+    text-decoration: none; 
+    color: white;
+}
