@@ -32,7 +32,7 @@ h3 {
     text-align: center;
 }
 
-#linkTest {
+#inputcity {
     position: absolute;
     z-index: 2;
     left: 0;
@@ -52,7 +52,7 @@ h3 {
     color: white;
 }
 
-#linkWeather {
+#startcheck {
     position: absolute;
     z-index: 2;
     left: 0;
@@ -80,7 +80,7 @@ h3 {
         background-color: white; 
     }
 
-    #linkTest {
+    #inputcity {
         margin: auto;
         margin-bottom: 75px;
     }
