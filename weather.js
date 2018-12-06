@@ -2,10 +2,11 @@
 const inputcity = document.querySelector('#inputcity'); 
 const name = document.querySelector('#name');
 const check = document.querySelector('#startcheck'); 
-const city = 'london'
+const show =document.querySelector('#show')
+var city = 'Paris'
 
 const getcityname = () => {  
-	city = inputcity.value.substring(0,1).toUpperCase()+inputname.value.substring(1).toLowerCase();
+	city = inputcity.value.toString();
 	if (inputcity.value.length < 1) {
 		city = 'Paris'
 	}
@@ -14,9 +15,11 @@ const focuson = () => {
 	inputcity.value = ''
 }
 const getweather = () => {
-	return fetch('https:/api.openweathermap.org/data/2.5/weather?q=london'+'&appid=e0111a42fec4f030d3e262962f0cb07a')
+	fetch('https:/api.openweathermap.org/data/2.5/weather?q='+city+'&appid=e0111a42fec4f030d3e262962f0cb07a')
 	.then(res =>res.json())
-	.then(posts =>console.log(posts)) 
+  	.then(responseData =>{
+		show.innerHTML=responseData.name +' today is '+responseData.base
+	})
 }
 
 inputcity.addEventListener('keyup', getcityname); 
