@@ -8,7 +8,8 @@ body {
 }
 
 img {
-    background-color: white
+    background-color: white;
+    width: 400px;
 }
 
 #description {
