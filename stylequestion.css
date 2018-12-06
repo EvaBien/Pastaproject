@@ -9,7 +9,7 @@ body {
 }
 
 #questionPart, BoilingImage {
-    background-color : #f8f3e3);
+    background-color : #f8f3e3;
     display : flex;
     flex-direction : row;
     flex-around: 5%;
