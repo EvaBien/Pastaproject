@@ -5,7 +5,8 @@ body {
 
 #pastaBackground {
     position: fixed;
-    width: 100%;
+    min-width: 100%;
+    min-height: 100%
 }
 
 #screen {
@@ -31,7 +32,7 @@ h3 {
     text-align: center;
 }
 
-#link {
+#linkTest {
     position: absolute;
     z-index: 2;
     left: 0;
@@ -39,13 +40,54 @@ h3 {
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 200px;
+    width: 250px;
     height: 20px;
     background-color: #e4a637;
     border-radius: 15px;
     margin-bottom: 60px;
+    margin-left: 180px;
 
     text-align: center;
     text-decoration: none; 
     color: white;
+}
+
+#linkWeather {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 250px;
+    height: 20px;
+    background-color: #e4a637;
+    border-radius: 15px;
+    margin-bottom: 60px;
+    margin-right: 180px;
+
+    text-align: center;
+    text-decoration: none; 
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    #screen {
+        width: 600px;
+        height: 300px;
+        background-color: white; 
+    }
+
+    #linkTest {
+        margin: auto;
+        margin-bottom: 75px;
+    }
+    
+    #linkWeather {
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
 }
