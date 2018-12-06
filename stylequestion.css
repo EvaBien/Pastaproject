@@ -3,6 +3,14 @@ body {
 }
 
 /*page layout*/
+#background {
+    display: flex;
+    position: relative;
+}
+
 #questionPart, BoilingImage {
     background-color : #f8f3e3);
+    display : flex;
+    flex-direction : row;
 }
+
