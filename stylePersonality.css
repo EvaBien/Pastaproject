@@ -1,4 +1,4 @@
-body {
+datessbody {
     background-color: #e1cc8b;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -9,11 +9,12 @@ body {
 
 img {
     background-color: white;
-    width: 400px;
 }
 
 #description {
     background-color: white;
+    width: 500px;
+    height: 500px;
 }
 
 .chic {
