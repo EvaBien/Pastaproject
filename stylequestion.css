@@ -6,7 +6,7 @@ body {
 #background {
     display: flex;
     position: relative;
-     justify-content: flex-around;
+     justify-content: space-around;
 }
 
 #questionPart{
