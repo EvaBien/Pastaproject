@@ -1,8 +1,12 @@
-#body {
-    background-color:  #ed4f5b;
+body {
+    background-color: #e1cc8b;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #informations {
     display: flex;
+}
+
+.chic {
+    display: none;
 }
