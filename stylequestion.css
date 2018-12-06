@@ -14,6 +14,6 @@ body {
     flex-direction : row;
 }
 
-#cookingpasta {
-    transform: scale(0.6,0.6)
+#cookingPasta {
+    transform: scale(0.9,0.9);
 }
