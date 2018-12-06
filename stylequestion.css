@@ -1,8 +1,16 @@
 body {
-    background-color: #FEF86C;
+    background-color: #e1cc8b;
 }
 
-/*page layout
+/*page layout*/
+#background {
+    display: flex;
+    position: relative;
+}
+
 #questionPart, BoilingImage {
-    background-color : azure;
-}*/
+    background-color : #f8f3e3);
+    display : flex;
+    flex-direction : row;
+}
+
