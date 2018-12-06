@@ -7,6 +7,14 @@ body {
     display: flex;
 }
 
+img {
+    background-color: white
+}
+
+#description {
+    background-color: white;
+}
+
 .chic {
     display: none;
 }
