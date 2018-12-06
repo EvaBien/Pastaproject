@@ -1,4 +1,8 @@
 body {
-    background-color: ##FEF86C;
-    font-family: 'Inconsolata', monospace;
+    background-color: #FEF86C;
+}
+
+/*page layout*/
+#questionPart, BoilingImage {
+    background-color : azure;
 }
