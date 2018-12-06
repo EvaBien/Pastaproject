@@ -15,10 +15,10 @@ const focuson = () => {
 	inputcity.value = ''
 }
 const getweather = () => {
-	fetch('https:/api.openweathermap.org/data/2.5/weather?q='+city+'&appid=e0111a42fec4f030d3e262962f0cb07a')
+	fetch('https:/api.openweathermap.org/data/2.5/weather?q='+city+'&units=metric&appid=e0111a42fec4f030d3e262962f0cb07a')
 	.then(res =>res.json())
   	.then(responseData =>{
-		show.innerHTML=responseData.name +' today is '+responseData.main.temp
+		show.innerHTML=responseData.name +' now is '+responseData.main.temp + ' ℃.'
 	})
 }
 
