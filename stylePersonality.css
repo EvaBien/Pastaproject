@@ -1,6 +1,10 @@
-datessbody {
-    background-color: #e1cc8b;
+body {
+    background-color: #f8c85b;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: white;
 }
 
 #informations {
@@ -15,6 +19,10 @@ img {
     background-color: white;
     width: 500px;
     height: 500px;
+}
+
+.shy {
+    display: inline;
 }
 
 .chic {
