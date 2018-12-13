@@ -29,11 +29,12 @@ body {
 }
 
 #answerChoices {
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    margin-left: 5%;
-    font-size: 125%;
+    font-size: 175%;
+}
+
+/* form layout */
+.answer{
+    margin-bottom: 9%;
 }
 
 #button{
@@ -43,6 +44,7 @@ body {
     height: 30px;
     border-radius: 10px;
     text-align: center;
+    margin-top: 25%;
 }
 
 # BoilingImage {
