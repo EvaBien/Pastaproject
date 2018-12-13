@@ -95,12 +95,12 @@ h1 {
 
     #inputcity {
         margin: auto;
-        margin-bottom: 75px;
+        margin-bottom: 120px;
     }
     
-    #linkWeather {
+   #startcheck  {
         margin: auto;
-        margin-bottom: 35px;
+        margin-bottom: 80px;
     }
 
 }
