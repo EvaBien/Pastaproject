@@ -16,7 +16,7 @@ body {
     /*margin-top: 5%;*/
     width: 750px;
     height: 600px;
-    background-color : #f8f3e3;
+    background-color : white;
     display : flex;
     flex-direction : column;
     justify-content: space-around;
@@ -31,6 +31,13 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 5%;
+}
+
+#button{
+    background-color: #e4a637;
+    color: white;
+    width: 400px;
+    margin-left: 175px;
 }
 
 # BoilingImage {
