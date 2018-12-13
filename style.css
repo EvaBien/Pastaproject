@@ -40,10 +40,7 @@ h3 {
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 250px;
-    height: 20px;
     background-color: #e4a637;
-    border-radius: 15px;
     margin-bottom: 60px;
     margin-left: 180px;
 
@@ -60,12 +57,10 @@ h3 {
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 250px;
-    height: 20px;
     background-color: #e4a637;
-    border-radius: 15px;
     margin-bottom: 60px;
-    margin-right: 180px;
+    margin-left: 20px;
+    margin-right: 20px;
 
     text-align: center;
     text-decoration: none; 
@@ -79,10 +74,7 @@ h3 {
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 250px;
-    height: 20px;
     background-color: #e4a637;
-    border-radius: 15px;
     margin-bottom: 60px;
     margin-right: 180px;
 
