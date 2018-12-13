@@ -30,6 +30,7 @@ h2 {
 h3 {
     font-size: 20px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 #linkTest {
@@ -41,8 +42,7 @@ h3 {
     bottom: 0;
     margin: auto;
     background-color: #e4a637;
-    margin-bottom: 60px;
-    margin-left: 150px;
+    margin-left: 155px;
 
     text-align: center;
     text-decoration: none; 
@@ -58,7 +58,6 @@ h3 {
     bottom: 0;
     margin: auto;
     background-color: #e4a637;
-    margin-bottom: 60px;
     margin-left: 20px;
     margin-right: 20px;
 
@@ -75,7 +74,6 @@ h3 {
     bottom: 0;
     margin: auto;
     background-color: #e4a637;
-    margin-bottom: 60px;
 
     text-align: center;
     text-decoration: none; 
@@ -90,13 +88,14 @@ h3 {
     }
 
     #linkTest {
-        margin: auto;
-        margin-bottom: 75px;
+        margin-left: 206px;
     }
     
     #linkWeather {
-        margin: auto;
-        margin-bottom: 35px;
+        margin-left: 216px;
     }
 
+    #linklocation {
+        margin-left: 216px;
+    }
 }
