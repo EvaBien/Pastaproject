@@ -12,12 +12,14 @@
     <div id="background">
         <div id="questionPart">
             <div id="question" class="grid">What kind of music do you prefer ?</div>
-            <div id="answerChoices" class="grid">
-                <p class="answer">1) Classic music</p>
-                <p class="answer">2) Rock music</p>
-                <p class="answer">3) Reggae music</p>
-            </div>
-            <div id="button" class="grid">Submit</div>
+            <form>
+                <div id="answerChoices" class="grid">
+                    <input type="radio" class="answer" value="elegant">  Classic music<br>
+                    <input type="radio" class="answer" value="crazy">  Rock music<br>
+                     <input type="radio" class="answer" value="shy">  Emo music<br>
+                </div>
+                <button type="submit" id="button" class="grid">Submit</button>
+            </form>
         </div>
         <div id="BoilingImage">
             <img id="cookingPasta" class="character-picture picture-active" alt="someone puting pasta into a saucepan" src="img/cookingPasta3.jpg">
