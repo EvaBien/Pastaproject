@@ -11,7 +11,7 @@ const getLocation = () =>{
 	}
 	else
 	{
-		show.innerHTML="该浏览器不支持获取地理位置。";
+		show.innerHTML="Not support!";
 	}
 }
 
