@@ -39,7 +39,7 @@ h1 {
     height: 20px;
     background-color: #e4a637;
     border-radius: 15px;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
     margin-left: 180px;
 
     text-align: center;
@@ -59,12 +59,30 @@ h1 {
     height: 20px;
     background-color: #e4a637;
     border-radius: 15px;
-    margin-bottom: 60px;
+    margin-bottom: 93px;
     margin-right: 180px;
 
     text-align: center;
     text-decoration: none; 
     color: white;
+}
+
+#linkHomepage {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 270px;
+    width: 110px;
+    height: 20px;
+    color: white;
+    background-color: #e4a637;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
 }
 
 @media (max-width: 768px) {
@@ -77,12 +95,12 @@ h1 {
 
     #inputcity {
         margin: auto;
-        margin-bottom: 75px;
+        margin-bottom: 120px;
     }
     
-    #linkWeather {
+   #startcheck  {
         margin: auto;
-        margin-bottom: 35px;
+        margin-bottom: 80px;
     }
 
 }
