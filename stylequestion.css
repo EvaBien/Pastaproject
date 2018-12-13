@@ -20,24 +20,22 @@ body {
     display : flex;
     flex-direction : column;
     justify-content: space-around;
-}
-
-#question, #button{
-    display : flex;
-    justify-content : center;
+    align-items: center;
+    border-radius: 25px;
 }
 
 #answerChoices {
     display: flex;
     flex-direction: column;
+    align-self: flex-start;
     margin-left: 5%;
 }
 
 #button{
-    background-color: #f1c94f;
+    background-color: #f0c33d;
     color: white;
     width: 400px;
-    margin-left: 175px;
+    border-radius: 10px
 }
 
 # BoilingImage {
