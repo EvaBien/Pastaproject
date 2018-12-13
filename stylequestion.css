@@ -24,18 +24,25 @@ body {
     border-radius: 25px;
 }
 
+#question {
+    font-size: 250%;
+}
+
 #answerChoices {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
     margin-left: 5%;
+    font-size: 125%;
 }
 
 #button{
     background-color: #f0c33d;
     color: white;
     width: 400px;
-    border-radius: 10px
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 # BoilingImage {
