@@ -1,14 +1,16 @@
 body {
-    background-color: #f8c85b;
+    background-color: #f1c94f;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
     color: white;
+    text-align: center;
 }
 
 #informations {
     display: flex;
+    justify-content: space-around;
 }
 
 img {
@@ -17,8 +19,13 @@ img {
 
 #description {
     background-color: white;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
+    margin-top: 67px;
+}
+
+p {
+    line-height: 200%;
 }
 
 .shy {
