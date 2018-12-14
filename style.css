@@ -25,6 +25,7 @@ body {
 h2 {
     font-size: 50px;
     text-align: center;
+    margin-top: 45px;
 }
 
 h3 {
@@ -34,15 +35,19 @@ h3 {
 }
 
 #linkTest {
-    position:relative;
+    position: absolute;
     z-index: 2;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     margin: auto;
+    margin-top: 220px;
+    margin-left: 39px;
     background-color: #e4a637;
-    margin-left: 155px;
+    border-radius: 10px;
+    width: 250px;
+    height: 21px;
 
     text-align: center;
     text-decoration: none; 
@@ -50,30 +55,37 @@ h3 {
 }
 
 #linkWeather {
-    position:relative;
+    position: absolute;
     z-index: 2;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     margin: auto;
+    margin-top: 220px;
     background-color: #e4a637;
-    margin-left: 20px;
-    margin-right: 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: 21px;
 
     text-align: center;
     text-decoration: none; 
     color: white;
 }
 #linklocation {
-    position:relative;
+    position: absolute;
     z-index: 2;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     margin: auto;
+    margin-top: 220px;
+    margin-right: 39px;
     background-color: #e4a637;
+    border-radius: 10px;
+    width: 250px;
+    height: 21px;
 
     text-align: center;
     text-decoration: none; 
@@ -87,15 +99,23 @@ h3 {
         background-color: white; 
     }
 
+    h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     #linkTest {
-        margin-left: 206px;
+        margin: auto;
+        margin-top: 155px;
     }
     
     #linkWeather {
-        margin-left: 216px;
+        margin: auto;
+        margin-top: 205px;        
     }
 
     #linklocation {
-        margin-left: 216px;
+        margin: auto;
+        margin-top: 255px;
     }
 }
