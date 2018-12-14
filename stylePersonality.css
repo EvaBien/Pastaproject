@@ -59,3 +59,41 @@ p {
     height: 20px;
     border-radius: 15px;
 }
+
+@media (max-width: 768px) {
+
+    #informations {
+        flex-direction: column;
+    }
+
+    img {
+        max-width: 50%;
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    #description {
+        font-size: 70%;
+        width: 600px;
+        height: 245px;
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        margin-top: 450px;
+    }
+
+    #linkHomepage {
+        margin-top: 205px;
+        height: 14px;
+    }
+}
