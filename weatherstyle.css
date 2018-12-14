@@ -39,7 +39,7 @@ h1 {
     height: 20px;
     background-color: #e4a637;
     border-radius: 15px;
-    margin-bottom: 90px;
+    margin-bottom: 110px;
     margin-left: 180px;
 
     text-align: center;
@@ -59,7 +59,7 @@ h1 {
     height: 20px;
     background-color: #e4a637;
     border-radius: 15px;
-    margin-bottom: 93px;
+    margin-bottom: 113px;
     margin-right: 180px;
 
     text-align: center;
@@ -75,7 +75,7 @@ h1 {
     top: 0;
     bottom: 0;
     margin: auto;
-    margin-top: 270px;
+    margin-top: 250px;
     width: 110px;
     height: 20px;
     color: white;
@@ -95,12 +95,12 @@ h1 {
 
     #inputcity {
         margin: auto;
-        margin-bottom: 120px;
+        margin-bottom: 130px;
     }
     
    #startcheck  {
         margin: auto;
-        margin-bottom: 80px;
+        margin-bottom: 90px;
     }
 
 }
