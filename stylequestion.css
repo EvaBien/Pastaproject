@@ -7,9 +7,9 @@ body {
 #background {
     display: flex;
     position: relative;
-     justify-content: space-around;
-     align-items: center;
-     margin-top: 5%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
 }
 
 /*question part layout*/
@@ -48,12 +48,45 @@ body {
     margin-top: 25%;
 }
 
-# BoilingImage {
-    margin-top: 5%;
-}
-
 #nextLink {
     text-decoration: none;
     color: white;
     font-size: 28px;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: 50%;
+    }
+
+    #background {
+        flex-direction: column-reverse;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    #questionPart {
+        width: 450px;
+        height: 350px;
+        margin-top: 15px;
+    }
+
+    #cookingPasta {
+        max-width: 30%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #question {
+        margin-top: 20px;
+    }
+
+    #answerChoices {
+        margin-top: 25px;
+    }
+
+    #button {
+        margin-top: 10%;
+    }
 }
