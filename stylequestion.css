@@ -34,7 +34,7 @@ body {
 }
 
 /* form layout */
-.answer{
+[name=answer] {
     margin-bottom: 9%;
 }
 
