@@ -36,3 +36,4 @@ input.addEventListener('click',doshow);
 //}
 
 var result1 = document.getElementsByName(answer1).checked.value;
+console.log(result1);
