@@ -16,7 +16,7 @@ const focuson = () => {
 const doshow = () => { 
 	event.preventDefault();
 	fetch('api.openweathermap.org/data/2.5/weather?q='+'inputname.value').then(response => response.json())
-  	.then(data => {
+  	.then(data) => {
     	const stats = data;
 	}
 	name.innerHTML = stats.weather;
