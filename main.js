@@ -9,5 +9,5 @@
 // }
 //}
 
-var result1 = document.getElementsByName(answer1).checked.value;
+var result1 = document.getElementsByName("answer1").checked.value;
 console.log(result1);
