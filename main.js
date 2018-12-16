@@ -9,7 +9,7 @@
 // }
 //}
 
-var madiv = document.QuerySelector("#answerChoices1")
+var madiv = document.querySelector("#answerChoices1")
 
 if (document.getElementsById("#f-option".checked)){
     answer1=1;
