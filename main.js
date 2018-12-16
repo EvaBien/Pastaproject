@@ -34,3 +34,5 @@ input.addEventListener('click',doshow);
 // valeur = boutons[i].value;
 // }
 //}
+
+var result1 = document.getElementsByName(answer1).checked.value;
