@@ -3,7 +3,7 @@ body {
     background-color: #f1c94f;
 }
 
-#background {
+.question-wrapper {
     display: flex;
     position: relative;
     justify-content: space-around;
