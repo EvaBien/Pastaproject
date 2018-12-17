@@ -29,7 +29,7 @@ body {
     font-size: 250%;
 }
 
-#answerChoices {
+#answerChoices1, #answerChoices2, #answerChoices3 {
     font-size: 175%;
 }
 
@@ -83,7 +83,7 @@ body {
         margin-top: 20px;
     }
 
-    #answerChoices {
+    #answerChoices1, #answerChoices2, #answerChoices3{
         margin-top: 25px;
     }
 
