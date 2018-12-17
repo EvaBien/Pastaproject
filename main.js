@@ -57,7 +57,7 @@ function VerifAnswer3(){
 //call
 
 console.log(document.querySelector("#nextLink1"));
-document.querySelector("#nextLink1").addEventListener("click", function(event) {
+document.querySelector('#nextLink1').addEventListener("click", function(event) {
   VerifAnswer1();
   window.location = "questions2.html";
 });
@@ -69,7 +69,7 @@ document.querySelector("#nextLink2").addEventListener("click", function(event) {
 
 document.querySelector("#nextLink3").addEventListener("click", function(event) {
   VerifAnswer3();
-  window.location = "personalityPgae.html";
+  window.location = "personalityPage.html";
 });
 
 
