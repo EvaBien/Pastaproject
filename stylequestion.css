@@ -48,12 +48,13 @@ body {
     margin-top: 25%;
 }
 
-#nextLink {
+#nextLink1, #nextLink2, #nextLink3 {
     text-decoration: none;
     color: white;
     font-size: 28px;
 }
 
+//responsive part
 @media (max-width: 768px) {
 
     body {
