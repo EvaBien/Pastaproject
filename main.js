@@ -10,6 +10,7 @@
 //}
 
 var madiv = document.querySelector("#answerChoices1")
+var answer1;
 
 if (document.querySelector("#f-option".checked)){
     answer1=1;
