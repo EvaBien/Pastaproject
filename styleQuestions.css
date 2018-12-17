@@ -64,6 +64,8 @@ button:hover {
     display: none;
 }
 
+
+//responsive part
 @media (max-width: 768px) {
 
     body {
