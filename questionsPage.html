@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styleQuestions.css">
+        <link rel="stylesheet" href="normalize.css">
+        <title>Projet Pâtes</title>
+    </head>
+ 
+    <body>
+        <div id="background">
+            <div id="questionPart">
+                <div class="question-wrapper set1" data-question="1">
+                    <div class="question">
+                        What kind of music do you prefer ?
+                    </div>
+                    <div class="answer">
+                        <label class="f-option" data-value="1">
+                            <input type="radio" name="option" checked="checked">  Classic music<br>
+                        </label>
+                        <label class="s-option" data-value="2">
+                            <input type="radio" name="option">  Rock music<br>
+                        </label>
+                        <label class="t-option" data-value="3">
+                            <input type="radio" name="option">  Emo music<br>
+                        </label>
+                    </div>
+                </div>
+                <div class="question-wrapper set2" data-question="2">
+                    <div class="question">
+                        What's your favorite pasta sauce ?
+                    </div>
+                    <div class="answer">
+                        <label class="f-option" data-value="1">
+                            <input type="radio" name="option" checked="checked">  Pesto<br>
+                        </label>
+                        <label class="s-option" data-value="2">
+                            <input type="radio" name="option">  Bolo<br>
+                        </label>
+                        <label class="t-option" data-value="3">
+                            <input type="radio" name="option">  Carbo<br>
+                        </label>
+                    </div>
+                </div>
+                <div class="question-wrapper set3" data-question="3">
+                    <div class="question">
+                        Where do you wanna go for holidays ?
+                    </div>
+                    <div class="answer">
+                        <label class="f-option" data-value="1">
+                            <input type="radio" name="option" checked="checked">  New-York city<br>
+                        </label>
+                        <label class="s-option" data-value="2">
+                            <input type="radio" name="option">  Climbing Mount Everest<br>
+                        </label>
+                        <label class="t-option" data-value="3">
+                            <input type="radio" name="option">  At home<br>
+                        </label>
+                    </div>
+                </div>
+                <div class="submit-wrapper">
+                    <div class="next">
+                        <button id="nextButton" type="button">
+                            <span>NEXT</span>
+                        </button>
+                    </div>
+                    <div class="end">
+                        <button id="resultButton" type="button">
+                            <span>RESULT</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <img id="cookingPasta" class="character-picture picture-active" alt="someone puting pasta into a saucepan" src="img/cookingPasta3.jpg">
+        </div>
+        <script src="questions.js"></script>
+    </body>   
+</html>
