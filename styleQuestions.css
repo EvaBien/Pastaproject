@@ -56,12 +56,12 @@ button:hover {
 }
 
 /* La section der la seconde question est pour l'instant cachée */
-.set2 {
+.set2, #nextButton2 {
     display: none;
 }
 
 /* La section de la troisième question est pour l'instant cachée */
-.set3 {
+.set3, #resultButton {
     display: none;
 }
 
