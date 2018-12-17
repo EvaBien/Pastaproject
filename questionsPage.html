@@ -9,11 +9,17 @@
  
     <body>
         <div id="background">
+
+                <!-- Première question -->
                 <div class="question-wrapper set1" data-question="1">
+
+                    <!-- Partie question -->
                     <div id="questionPart">
                         <div class="question">
                             What kind of music do you prefer ?
                         </div>
+
+                        <!-- Partie réponse -->
                         <div class="answer">
                             <label class="f-option" data-value="1">
                                 <input type="radio" name="option" checked="checked">  Classic music<br>
@@ -25,14 +31,19 @@
                                 <input type="radio" name="option">  Emo music<br>
                             </label>
                         </div>
+
+                        <!-- Partie bouton "suivant" -->
                         <div class="submit-wrapper">
                                 <button id="nextButton" type="button">
                                     <span>NEXT</span>
                                 </button>
                         </div>
                     </div>
+
+                    <!-- Image de pâtes -->
                     <img id="cookingPasta1" class="character-picture picture-active" alt="someone puting pasta into a saucepan" src="img/1.jpg">
                 </div>
+
                 <div class="question-wrapper set2" data-question="2">
                     <div id="questionPart">
                         <div class="question">
@@ -57,6 +68,7 @@
                     </div>
                     <img id="cookingPasta2" class="character-picture picture-active" alt="pasta that cook" src="img/2.jpg">
                 </div>
+
                 <div class="question-wrapper set3" data-question="3">
                     <div id="questionPart">
                         <div class="question">
@@ -73,6 +85,8 @@
                                 <input type="radio" name="option">  At home<br>
                             </label>
                         </div>
+
+                        <!-- Partie bouton "résultat" -->
                         <div class="submit-wrapper">
                             <button id="resultButton" type="button">
                                 <span>RESULT</span>
@@ -81,7 +95,7 @@
                     </div>
                     <img id="cookingPasta3" class="character-picture picture-active" alt="dried pasta" src="img/3.jpg">
                 </div>
-            </div>
+
         </div>
         <script src="questions.js"></script>
     </body>   
