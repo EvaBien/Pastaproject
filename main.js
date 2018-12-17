@@ -11,16 +11,16 @@
 
 var madiv = document.querySelector("#answerChoices1")
 
-if (document.getElementById("#f-option".checked)){
+if (document.querySelector("#f-option".checked)){
     answer1=1;
-} else if (document.getElementById("#s-option".checked)){
+} else if (document.querySelector("#s-option".checked)){
     answer1=2;
 } else {
     answer1=3;
 }
 
-console.log(document.getElementById("#f-option").checked);
-console.log(document.getElementById("#s-option").checked);
-console.log(document.getElementById("#t-option").checked);
+console.log(document.querySelector("#f-option").checked);
+console.log(document.querySelector("#s-option").checked);
+console.log(document.querySelector("#t-option").checked);
 
 console.log(answer1);
