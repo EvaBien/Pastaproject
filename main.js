@@ -55,6 +55,8 @@ function VerifAnswer3(){
 }
 
 //call
+
+console.log(document.querySelector("#nextLink1"));
 document.querySelector("#nextLink1").addEventListener("click", function(event) {
   VerifAnswer1();
   window.location = "questions2.html";
