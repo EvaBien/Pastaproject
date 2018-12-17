@@ -19,8 +19,8 @@ if (document.getElementById("#f-option".checked)){
     answer1=3;
 }
 
-console.log(document.getElementById("#f-option".checked));
-console.log(document.getElementById("#s-option".checked));
-console.log(document.getElementById("#t-option".checked));
+console.log(document.getElementById("#f-option").checked);
+console.log(document.getElementById("#s-option").checked);
+console.log(document.getElementById("#t-option").checked);
 
 console.log(answer1);
