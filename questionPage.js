@@ -54,3 +54,9 @@ document.querySelector('#nextButton1').addEventListener("click", function(event)
   document.querySelector("div.question-wrapper.set2").style.display="inline";
 });
 
+document.querySelector("nextButton2").addEventListener("click", function(event) {
+  //VerifAnswer2();
+  document.querySelector("div.question-wrapper.set2").style.display="none";
+  document.querySelector("div.question-wrapper.set3").style.display="inline";
+});
+
