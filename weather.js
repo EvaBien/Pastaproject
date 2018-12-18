@@ -4,7 +4,7 @@ const name = document.querySelector('#name');
 const check = document.querySelector('#startcheck'); 
 const show =document.querySelector('#show')
 const photo =document.querySelector('#photo')
-const city = 'Paris'
+var city = 'Paris'
 
 const getcityname = () => {  
 	city = inputcity.value.toString();
