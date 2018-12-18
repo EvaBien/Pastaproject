@@ -1,4 +1,4 @@
-/global var
+//global var
 var madiv = document.querySelector("#answerChoices1")
 var answer1;
 var answer2;
