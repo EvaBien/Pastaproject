@@ -19,7 +19,7 @@ body {
     bottom: 0;
     margin: auto;
     width: 900px;
-    height: 300px;
+    height: 650px;
     background-color: white;
 }
 
@@ -27,6 +27,16 @@ h1 {
     font-size: 50px;
     text-align: center;
 }
+
+#photo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
 #inputcity {
     position: absolute;
     z-index: 2;
@@ -39,7 +49,7 @@ h1 {
     height: 20px;
     background-color: #e4a637;
     border-radius: 15px;
-    margin-bottom: 110px;
+    margin-bottom: 90px;
     margin-left: 180px;
 
     text-align: center;
@@ -59,7 +69,7 @@ h1 {
     height: 20px;
     background-color: #e4a637;
     border-radius: 15px;
-    margin-bottom: 113px;
+    margin-bottom: 93px;
     margin-right: 180px;
 
     text-align: center;
@@ -75,7 +85,7 @@ h1 {
     top: 0;
     bottom: 0;
     margin: auto;
-    margin-top: 250px;
+    margin-bottom: 20px;
     width: 110px;
     height: 20px;
     color: white;
@@ -89,8 +99,11 @@ h1 {
 
     #screen {
         width: 600px;
-        height: 300px;
-        background-color: white; 
+        height: 700px;
+    }
+
+    #photo {
+        margin-top: 150px;
     }
 
     #inputcity {
