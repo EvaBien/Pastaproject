@@ -55,13 +55,24 @@ button:hover {
     cursor : pointer; /*it changes the mouse in a hand to show the user than he can click*/
 }
 
+
 /* The section of the second question is hidden */
 .set2 {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
     display: none;
 }
 
 /* The section of the third question is hidden */
 .set3 {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
     display: none;
 }
 
