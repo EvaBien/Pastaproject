@@ -2,7 +2,6 @@
 var answer1;
 var answer2;
 var answer3;
-const question1 = 
 
 //functions
 function VerifAnswer1(){
@@ -13,6 +12,7 @@ function VerifAnswer1(){
     } else {
         answer1=3;
     }
+}
 
 function VerifAnswer2(){
     if (document.querySelector("#f-option").checked == true){
@@ -34,16 +34,6 @@ function VerifAnswer3(){
     }
 }
 
-
-//test part
-console.log(document.querySelector("#f-option").checked);
-console.log(document.querySelector("#s-option").checked);
-console.log(document.querySelector("#t-option").checked);
-
-console.log(answer1);
-
-}
-
 //call
 
 console.log(document.querySelector("#nextButton1"));
@@ -57,7 +47,6 @@ document.querySelector('#nextButton1').addEventListener("click", function(event)
   
   console.log(answer1);
 
-}
   document.querySelector("div.question-wrapper.set1").style.display="none"; //you need to add "div." before everything to explain that it is a div
   document.querySelector("div.question-wrapper.set2").style.display="inline";
 });
