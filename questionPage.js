@@ -2,6 +2,7 @@
 var answer1;
 var answer2;
 var answer3;
+const question1 = 
 
 //functions
 function VerifAnswer1(){
@@ -49,7 +50,7 @@ console.log(document.querySelector("#nextButton1"));
 
 document.querySelector('#nextButton1').addEventListener("click", function(event) {
   //VerifAnswer1();
-  document.querySelector("question-wrapper.set1").style.display="none";
-  document.querySelector("question-wrapper.set2").style.display="inline";
+  document.querySelector("div.question-wrapper.set1").style.display="none"; //you need to add "div." before everything to explain that it is a div
+  document.querySelector("div.question-wrapper.set2").style.display="inline";
 });
 
