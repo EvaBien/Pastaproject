@@ -3,7 +3,7 @@ body {
     background-color: #f1c94f;
 }
 
-/* On sépare en deux blocs la "Partie question" et la "Partie Image" */
+/* We separarate in two blocs , the "question part" et the "image part" */
 .question-wrapper {
     display: flex;
     position: relative;
@@ -12,7 +12,7 @@ body {
     margin-top: 5%;
 }
 
-/* Bloc "question + réponse + boutton" */
+/* Bloc "question + answer + button" */
 #questionPart{
     width: 750px;
     height: 600px;
@@ -36,7 +36,7 @@ input[type=radio] {
     margin-bottom: 9%;
 }
 
-/* Bouttons "suivant" et "résultat" */
+/* Buttons "next" et "results" */
 button {
     cursor: pointer;
     width:250px;
@@ -55,12 +55,12 @@ button:hover {
     cursor : pointer; /*it changes the mouse in a hand to show the user than he can click*/
 }
 
-/* La section der la seconde question est pour l'instant cachée */
+/* The section of the second question is hidden */
 .set2, #nextButton2 {
     display: none;
 }
 
-/* La section de la troisième question est pour l'instant cachée */
+/* The section of the third question is hidden */
 .set3, #resultButton {
     display: none;
 }
