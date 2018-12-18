@@ -5,9 +5,9 @@ var answer3;
 
 //functions
 function VerifAnswer1(){
-    if (document.querySelector("#f-option").checked == true){
+    if (document.querySelector("#rep1").checked == true){
         answer1=1;
-    } else if (document.querySelector("#s-option").checked == true){
+    } else if (document.querySelector("#rep2").checked == true){
         answer1=2;
     } else {
         answer1=3;
@@ -15,9 +15,9 @@ function VerifAnswer1(){
 }
 
 function VerifAnswer2(){
-    if (document.querySelector("#f-option").checked == true){
+    if (document.querySelector("#rep4").checked == true){
         answer2=1;
-    } else if (document.querySelector("#s-option").checked == true){
+    } else if (document.querySelector("#rep5").checked == true){
         answer2=2;
     } else {
         answer2=3;
@@ -25,9 +25,9 @@ function VerifAnswer2(){
 }
 
 function VerifAnswer3(){
-    if (document.querySelector("#f-option").checked == true){
+    if (document.querySelector("#rep7").checked == true){
         answer3=1;
-    } else if (document.querySelector("#s-option").checked == true){
+    } else if (document.querySelector("#rep8").checked == true){
         answer2=2;
     } else {
         answer2=3;
@@ -41,9 +41,9 @@ console.log(document.querySelector("#nextButton1"));
 document.querySelector('#nextButton1').addEventListener("click", function(event) {
   VerifAnswer1();
   //test fonctionnement fonction
-  console.log(document.querySelector("#f-option").checked);
-  console.log(document.querySelector("#s-option").checked);
-  console.log(document.querySelector("#t-option").checked);
+  console.log(document.querySelector("#rep1").checked);
+  console.log(document.querySelector("#rep2").checked);
+  console.log(document.querySelector("#rep3").checked);
   
   console.log(answer1);
 
