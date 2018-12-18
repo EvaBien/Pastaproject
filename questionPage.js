@@ -53,11 +53,11 @@ document.querySelector('#nextButton1').addEventListener("click", function(event)
   document.querySelector("question-wrapper.set2").style.display="inline";
 });
 
-document.querySelector("nextButton2").addEventListener("click", function(event) {
-  VerifAnswer2();
-  document.querySelector("question-wrapper.set2").style.display="none";
-  document.querySelector("question-wrapper.set3").style.display="inline";
-});
+//document.querySelector("nextButton2").addEventListener("click", function(event) {
+//  VerifAnswer2();
+//  document.querySelector("question-wrapper.set2").style.display="none";
+//  document.querySelector("question-wrapper.set3").style.display="inline";
+//});
 
 document.querySelector("#resultButton").addEventListener("click", function(event) {
   VerifAnswer3();
