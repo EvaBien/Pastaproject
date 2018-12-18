@@ -56,12 +56,12 @@ button:hover {
 }
 
 /* The section of the second question is hidden */
-.set2, #nextButton2 {
+.set2 {
     display: none;
 }
 
 /* The section of the third question is hidden */
-.set3, #resultButton {
+.set3 {
     display: none;
 }
 
