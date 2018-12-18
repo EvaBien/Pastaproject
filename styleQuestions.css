@@ -5,8 +5,8 @@ body {
 
 /* We separarate in two blocs , the "question part" et the "image part" */
 .question-wrapper {
-    display: flex;
     position: relative;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 5%;
@@ -39,12 +39,12 @@ input[type=radio] {
 /* Buttons "next" et "results" */
 button {
     cursor: pointer;
-    width:250px;
-	height:30px;
-	background:#f0c33d;
-	border-radius:15px;
-	border:none;
-    color:white;
+    width: 250px;
+	height: 30px;
+	background: #f0c33d;
+	border-radius: 15px;
+	border: none;
+    color: white;
 }
 
 button:hover {
@@ -66,17 +66,15 @@ button:hover {
 }
 
 
-//responsive part
+/*responsive part*/
 @media (max-width: 768px) {
 
     body {
         font-size: 50%;
     }
-
-    #background {
+    
+    .question-wrapper {
         flex-direction: column-reverse;
-        margin: auto;
-        margin-top: 15px;
     }
 
     #questionPart {
@@ -102,4 +100,5 @@ button:hover {
     button {
         margin-top: 10%;
     }
+    
 }
