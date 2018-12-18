@@ -49,7 +49,15 @@ console.log(answer1);
 console.log(document.querySelector("#nextButton1"));
 
 document.querySelector('#nextButton1').addEventListener("click", function(event) {
-  //VerifAnswer1();
+  VerifAnswer1();
+  //test fonctionnement fonction
+  console.log(document.querySelector("#f-option").checked);
+  console.log(document.querySelector("#s-option").checked);
+  console.log(document.querySelector("#t-option").checked);
+  
+  console.log(answer1);
+
+}
   document.querySelector("div.question-wrapper.set1").style.display="none"; //you need to add "div." before everything to explain that it is a div
   document.querySelector("div.question-wrapper.set2").style.display="inline";
 });
