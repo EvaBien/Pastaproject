@@ -3,7 +3,9 @@ const inputcity = document.querySelector('#inputcity');
 const name = document.querySelector('#name');
 const check = document.querySelector('#startcheck'); 
 const show =document.querySelector('#show')
+const photo =document.querySelector('#photo')
 var city = 'Paris'
+var now = '.jpg'
 
 const getcityname = () => {  
 	city = inputcity.value.toString();
@@ -16,9 +18,12 @@ const focuson = () => {
 }
 const getweather = () => {
 	fetch('https:/api.openweathermap.org/data/2.5/weather?q='+city+'&units=metric&appid=e0111a42fec4f030d3e262962f0cb07a')
-	.then(res =>res.json())
+	.then(responseData => 
+		responseData.json())
   	.then(responseData =>{
-		show.innerHTML=responseData.name +' now is '+responseData.main.temp + ' ℃.'
+		show.innerHTML=responseData.name +' now is '+responseData.main.temp + ' ℃.'+responseData.weather[0].main;
+		now = 'img/' + responseData.weather[0].main+ '.jpg';
+		photo.src= now;
 	})
 }
 
