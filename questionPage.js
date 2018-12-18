@@ -1,5 +1,4 @@
 //global var
-var madiv = document.querySelector("#answerChoices1")
 var answer1;
 var answer2;
 var answer3;
@@ -13,15 +12,6 @@ function VerifAnswer1(){
     } else {
         answer1=3;
     }
-
-//test part
-console.log(document.querySelector("#f-option").checked);
-console.log(document.querySelector("#s-option").checked);
-console.log(document.querySelector("#t-option").checked);
-
-console.log(answer1);
-
-}
 
 function VerifAnswer2(){
     if (document.querySelector("#f-option").checked == true){
@@ -43,18 +33,30 @@ function VerifAnswer3(){
     }
 }
 
+
+//test part
+console.log(document.querySelector("#f-option").checked);
+console.log(document.querySelector("#s-option").checked);
+console.log(document.querySelector("#t-option").checked);
+
+console.log(answer1);
+
+}
+
 //call
 
 console.log(document.querySelector("#nextButton1"));
+
 document.querySelector('#nextButton1').addEventListener("click", function(event) {
   VerifAnswer1();
-  document.querySelector(".set1").style.display="none";
-  document.querySelector(".set2").style.display="inline";
+  document.querySelector("question-wrapper.set1").style.display="none";
+  document.querySelector("question-wrapper.set2").style.display="inline";
 });
 
 document.querySelector("nextButton2").addEventListener("click", function(event) {
   VerifAnswer2();
-  window.location = "questions3.html";
+  document.querySelector("question-wrapper.set2").style.display="none";
+  document.querySelector("question-wrapper.set3").style.display="inline";
 });
 
 document.querySelector("#resultButton").addEventListener("click", function(event) {
