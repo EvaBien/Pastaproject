@@ -4,8 +4,7 @@ const name = document.querySelector('#name');
 const check = document.querySelector('#startcheck'); 
 const show =document.querySelector('#show')
 const photo =document.querySelector('#photo')
-var city = 'Paris'
-var now = '.jpg'
+const city = 'Paris'
 
 const getcityname = () => {  
 	city = inputcity.value.toString();
@@ -22,8 +21,7 @@ const getweather = () => {
 		responseData.json())
   	.then(responseData =>{
 		show.innerHTML=responseData.name +' now is '+responseData.main.temp + ' ℃.'+responseData.weather[0].main;
-		now = 'img/' + responseData.weather[0].main+ '.jpg';
-		photo.src= now;
+		photo.src= 'img/' + responseData.weather[0].main+ '.jpg';
 	})
 }
 
