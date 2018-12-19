@@ -86,5 +86,3 @@ if ( (answer1+answer2+answer3==7) ) {
     if ( (answer1==2) | (answer2==2) | (answer3==2) ) { document.querySelector(".crazy").style.display = "flex"; }
     else { document.querySelector(".shy").style.display = "flex"; }
 }
-
-
