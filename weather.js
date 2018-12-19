@@ -21,7 +21,7 @@ const getweather = () => {
 		responseData.json())
   	.then(responseData =>{
 		show.innerHTML=responseData.name +' now is '+responseData.main.temp + ' ℃.'+responseData.weather[0].main;
-		photo.src= 'img/' + responseData.weather[0].main+ '.jpg';
+		photo.src= 'img/' + responseData.weather[0].main+ '.png';
 	})
 }
 
