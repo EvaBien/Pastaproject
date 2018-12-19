@@ -2,7 +2,9 @@
 const inputcity = document.querySelector('#inputcity'); 
 const get = document.querySelector('#getlocation'); 
 const show =document.querySelector('#show')
-
+const newmap =document.getElementById('#map')
+var lat,lng;
+var map, infoWindow;
 
 const getLocation = () =>{
 	if (navigator.geolocation)
@@ -17,8 +19,19 @@ const getLocation = () =>{
 
 function showPosition(position)
 {
+	lat = position.coords.latitude;
+	lng = position.coords.longitude;
 	show.innerHTML="latitude: " + position.coords.latitude + 
 	"longitude: " + position.coords.longitude;	
 }
 
-get.addEventListener('click',getLocation);
+function initMap() {
+  var center = {lat: lat, lng: lng};
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 12, center: center});
+  var marker = new google.maps.Marker({position: center, map: map});
+	document.getElementById('map').style.display="flex";
+}
+	
+get.addEventListener('click',initMap);
+window.onload = getLocation();

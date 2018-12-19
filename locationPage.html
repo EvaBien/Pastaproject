@@ -8,12 +8,17 @@
 <body>
 	<audio autoplay="autoplay" loop="loop" preload="auto"
             	src="music.mp3">
+	
 	</audio>
 	<img id="pastaBackground" class="picture-active" alt="picture of pasta" src="img/pastaBackground.jpg">
     <div id="screen">
 		<h1 id="show">INPUT CITY FIRST</h1>
+		<div id="map"></div>
 	<input id="getlocation" type="submit" value="GET location" class="bold">
     </div>
 	<script src="location.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFeITf7zhpY_MRUVmVgNDXOktGvPwhOPQ&callback=initMap">
+	</script>
 </body>
 </html>
