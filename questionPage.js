@@ -62,7 +62,7 @@ document.querySelector("#resultButton").addEventListener("click", function(event
   document.querySelector("div.informations").style.display="flex";
     //show results
 
-    // if the 3 answers are same
+    // if the 3 answers are the same
     if ( (answer1==answer2) & (answer1==answer3) == true ) {
         if (answer1==1 == true) { document.querySelector(".elegant").style.display = "flex"; }
         else if (answer1==2 == true) { document.querySelector(".crazy").style.display = "flex"; }
