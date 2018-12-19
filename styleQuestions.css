@@ -3,6 +3,57 @@ body {
     background-color: #f1c94f;
 }
 
+/*animations*/
+
+ /*appear from top of the page*/
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*appear with a transition fade in slowly*/
+@keyframes puff-in-center {
+  0% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+/*appear from backward*/
+@keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+            transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+
+
+
 /* We separarate in two blocs , the "question part" et the "image part" */
 .question-wrapper {
     position: relative;
@@ -10,6 +61,8 @@ body {
     justify-content: space-around;
     align-items: center;
     margin-top: 5%;
+    animation-name: slide-in-fwd-center;
+    animation-duration: 2s;
 }
 
 /* Bloc "question + answer + button" */
