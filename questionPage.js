@@ -67,6 +67,7 @@ document.querySelector("#nextButton2").addEventListener("click", function(event)
 });
 
 document.querySelector("#resultButton").addEventListener("click", function(event) {
+    VerifAnswer3();
   document.querySelector("div.question-wrapper.set3").style.display="none";
   document.querySelector("div.informations").style.display="flex";
 
