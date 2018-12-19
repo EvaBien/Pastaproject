@@ -40,7 +40,8 @@ console.log(document.querySelector("#nextButton1"));
 
 document.querySelector('#nextButton1').addEventListener("click", function(event) {
   VerifAnswer1();
-  //test fonctionnement fonction
+
+    //test fonctionnement fonction
   console.log(document.querySelector("#rep1").checked);
   console.log(document.querySelector("#rep2").checked);
   console.log(document.querySelector("#rep3").checked);
@@ -84,24 +85,54 @@ document.querySelector("#resultButton").addEventListener("click", function(event
 
     // if the 3 answers are the same
     if ( (answer1==answer2) & (answer1==answer3) == true ) {
-        if (answer1==1 == true) { document.querySelector(".elegant").style.display = "flex"; }
-        else if (answer1==2 == true) { document.querySelector(".crazy").style.display = "flex"; }
-        else { document.querySelector(".shy").style.display = "flex"; }
+        if (answer1==1 == true) {
+            document.querySelector(".elegant").style.display = "flex";
+            document.querySelector("p.elegant").style.display = "flex";
+        }
+        else if (answer1==2 == true) {
+            document.querySelector(".crazy").style.display = "flex";
+            document.querySelector("p.crazy").style.display = "flex";
+        }
+        else {
+            document.querySelector(".shy").style.display = "flex";
+            document.querySelector("p.shy").style.display = "flex";
+        }
     }
 
     // if the 3 answers are different
-    if ( (answer1!=answer2) & (answer1!=answer3) & (answer2!=answer3) == true ) { document.querySelector(".creepyPasta").style.display = "flex"; }
+    if ( (answer1!=answer2) & (answer1!=answer3) & (answer2!=answer3) == true ) {
+        document.querySelector(".creepyPasta").style.display = "flex";
+        document.querySelector("p.creepyPasta").style.display = "flex";
+    }
 
     // if there are different proportions
-    if ( (answer1+answer2+answer3==4) == true) { document.querySelector(".elegant").style.display = "flex"; }
-    if ( (answer1+answer2+answer3==8) == true) { document.querySelector(".shy").style.display = "flex"; }
+    if ( (answer1+answer2+answer3==4) == true) {
+        document.querySelector(".elegant").style.display = "flex";
+        document.querySelector("p.elegant").style.display = "flex";
+    }
+    if ( (answer1+answer2+answer3==8) == true) {
+        document.querySelector(".shy").style.display = "flex";
+        document.querySelector("p.shy").style.display = "flex";
+    }
     if ( (answer1+answer2+answer3==5) == true) {
-        if ( (answer1==3) | (answer2==3) | (answer3==3) == true) { document.querySelector(".elegant").style.display = "flex"; }
-        else { document.querySelector(".crazy").style.display = "flex"; }
+        if ( (answer1==3) | (answer2==3) | (answer3==3) == true) {
+            document.querySelector(".elegant").style.display = "flex";
+            document.querySelector("p.elegant").style.display = "flex";
+        }
+        else {
+            document.querySelector(".crazy").style.display = "flex";
+            document.querySelector("p.crazy").style.display = "flex";
+        }
     }
     if ( (answer1+answer2+answer3==7) == true) {
-        if ( (answer1==2) | (answer2==2) | (answer3==2) == true) { document.querySelector(".crazy").style.display = "flex"; }
-        else { document.querySelector(".shy").style.display = "flex"; }
+        if ( (answer1==2) | (answer2==2) | (answer3==2) == true) {
+            document.querySelector(".crazy").style.display = "flex";
+            document.querySelector("p.crazy").style.display = "flex";
+        }
+        else {
+            document.querySelector(".shy").style.display = "flex";
+            document.querySelector("p.shy").style.display = "flex";
+        }
     }
 });
 
