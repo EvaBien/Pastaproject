@@ -105,6 +105,10 @@ p {
     display: none;
 }
 
+.creepy-pasta {
+    display: none;
+}
+
 #linkHomepage {
     position: absolute;
     z-index: 1;
