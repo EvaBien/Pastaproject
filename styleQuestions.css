@@ -199,6 +199,15 @@ p {
     border-radius: 15px;
 }
 
+#linkHomepage:hover {
+    background: white !important;
+    border: 2px solid #f0c33d;
+    color: #f0c33d;
+    transition-duration: 0s;
+    cursor : pointer; /*it changes the mouse in a hand to show the user than he can click*/
+}
+
+
 /*responsive part*/
 @media (max-width: 768px) {
 
