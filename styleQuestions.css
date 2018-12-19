@@ -72,7 +72,7 @@ h2 {
     text-align: center;
 }
 
-#informations {
+.informations {
     display: none;
     justify-content: space-around;
 }
