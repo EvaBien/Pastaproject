@@ -30,8 +30,10 @@ function initMap() {
   var map = new google.maps.Map(
       document.getElementById('map'), {zoom: 12, center: center});
   var marker = new google.maps.Marker({position: center, map: map});
-	document.getElementById('map').style.display="flex";
 }
-	
-get.addEventListener('click',initMap);
+
+const showmap = () =>{
+	document.querySelector('#map').style.display="flex";
+}
+get.addEventListener('click',showmap);
 window.onload = getLocation();
