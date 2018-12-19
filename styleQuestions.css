@@ -73,7 +73,7 @@ h2 {
 }
 
 #informations {
-    display: flex;
+    display: none;
     justify-content: space-around;
 }
 
