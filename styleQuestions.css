@@ -52,7 +52,7 @@ body {
 }
 
 
-
+/*------------------------------LAYOUT PART--------------------------------------------------*/
 
 /* We separarate in two blocs , the "question part" et the "image part" */
 .question-wrapper {
@@ -136,6 +136,12 @@ img[name=img-results] {
 
 img[class=creepyPasta] {
     margin-top: 136px;
+}
+
+
+.imgAnim {
+    animation-name: slide-in-top;
+    animation-duration: 1s;
 }
 
 #description {
