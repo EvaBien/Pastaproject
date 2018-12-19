@@ -81,6 +81,10 @@ img[name=img-results] {
     background-color: white;
 }
 
+img[class=creepyPasta] {
+    margin-top: 136px;
+}
+
 #description {
     position: relative;
     background-color: white;
