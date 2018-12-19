@@ -93,6 +93,14 @@ img[class=creepyPasta] {
     margin-top: 67px;
 }
 
+#textBorder {
+    position: relative;
+    background-color: white;
+    width: 550px;
+    height: 500px;
+    margin: auto;
+}
+
 p {
     line-height: 200%;
 }
