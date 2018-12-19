@@ -53,6 +53,15 @@ document.querySelector('#nextButton1').addEventListener("click", function(event)
 
 document.querySelector("#nextButton2").addEventListener("click", function(event) {
   VerifAnswer2();
+
+    //test fonctionnement fonction
+  console.log(document.querySelector("#rep4").checked);
+  console.log(document.querySelector("#rep5").checked);
+  console.log(document.querySelector("#rep6").checked);
+  
+  console.log(answer2);
+
+
   document.querySelector("div.question-wrapper.set2").style.display="none";
   document.querySelector("div.question-wrapper.set3").style.display="flex";
 });
@@ -60,6 +69,16 @@ document.querySelector("#nextButton2").addEventListener("click", function(event)
 document.querySelector("#resultButton").addEventListener("click", function(event) {
   document.querySelector("div.question-wrapper.set3").style.display="none";
   document.querySelector("div.informations").style.display="flex";
+
+    //test fonctionnement fonction
+  console.log(document.querySelector("#rep7").checked);
+  console.log(document.querySelector("#rep8").checked);
+  console.log(document.querySelector("#rep9").checked);
+  
+  console.log(answer3);
+
+
+
     //show results
 
     // if the 3 answers are the same
