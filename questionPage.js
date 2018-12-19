@@ -90,7 +90,7 @@ document.querySelector("#resultButton").addEventListener("click", function(event
     }
 
     // if the 3 answers are different
-    if ( (answer1!=answer2) & (answer1!=answer3) & (answer2!=answer3) == true ) { document.querySelector(".creapyPasta").style.display = "flex"; }
+    if ( (answer1!=answer2) & (answer1!=answer3) & (answer2!=answer3) == true ) { document.querySelector(".creepyPasta").style.display = "flex"; }
 
     // if there are different proportions
     if ( (answer1+answer2+answer3==4) == true) { document.querySelector(".elegant").style.display = "flex"; }
