@@ -28,9 +28,9 @@ function VerifAnswer3(){
     if (document.querySelector("#rep7").checked == true){
         answer3=1;
     } else if (document.querySelector("#rep8").checked == true){
-        answer2=2;
+        answer3=2;
     } else {
-        answer2=3;
+        answer3=3;
     }
 }
 
