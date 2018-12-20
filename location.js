@@ -35,7 +35,6 @@ function initMap() {
 	var map = new google.maps.Map(
 		document.getElementById('map'), {zoom: 13, center: center});
 	var marker = new google.maps.Marker({position: center, map: map});
-	var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
     var icons = {
     	pasta: {
             icon:  'img/logo.png'
