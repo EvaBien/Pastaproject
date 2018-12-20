@@ -21,19 +21,25 @@ function showPosition(position)
 {
 	lat = position.coords.latitude;
 	lng = position.coords.longitude;
-	show.innerHTML="latitude: " + position.coords.latitude + 
-	"longitude: " + position.coords.longitude;	
+	fetch('https://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+lng +'&units=metric&appid=e0111a42fec4f030d3e262962f0cb07a')
+	.then(responseData => 
+		responseData.json())
+  	.then(responseData =>{
+		show.innerHTML='We guess you are now in '+responseData.name +', Click the button to find the most close Pasta.';
+		photo.src= 'img/' + responseData.weather[0].main+ '.jpg';
+	})
 }
 
 function initMap() {
   var center = {lat: lat, lng: lng};
   var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 12, center: center});
+      document.getElementById('map'), {zoom: 15, center: center});
   var marker = new google.maps.Marker({position: center, map: map});
 }
 
 const showmap = () =>{
-	document.querySelector('#map').style.display="flex";
+	document.querySelector('#map').style.display="inherit";
+	show.innerHTML= "That's it, have a good meal."
 }
 get.addEventListener('click',showmap);
 window.onload = getLocation();

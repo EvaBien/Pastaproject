@@ -19,7 +19,7 @@ body {
     bottom: 0;
     margin: auto;
     width: 900px;
-    height: 300px;
+    height: 650px;
     background-color: white;
 }
 
@@ -79,25 +79,78 @@ h1 {
 #map {
 	height: 300px;
 	width: 500px;
-	display: none;
-}
-
-#linkHomepage {
-    position: absolute;
-    z-index: 1;
+	display:none;
+	position: absolute;
+    left: 0;
     top: 0;
     bottom: 0;
     right: 0;
-    left: 0;
     margin: auto;
-    margin-top: 500px;
+    animation-name: bounce-in-top;
+    animation-duration: 1s;
+}
+@keyframes bounce-in-top {
+  0% {
+    -webkit-transform: translateY(-500px);
+            transform: translateY(-500px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    -webkit-transform: translateY(-65px);
+            transform: translateY(-65px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  72% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  81% {
+    -webkit-transform: translateY(-28px);
+            transform: translateY(-28px);
+    -webkit-animation-timing-function: ease-in;
+  }
 
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    background-color: #f1c94f;
+  95% {
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+#linkHomepage {
+     position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    margin-bottom: 20px;
     width: 110px;
     height: 20px;
+    color: white;
+    background-color: #e4a637;
+    text-decoration: none;
+    text-align: center;
     border-radius: 15px;
 }
 
