@@ -66,6 +66,16 @@ h1 {
     text-decoration: none; 
     color: white;
 }
+
+#getlocation:hover {
+    background: white !important;
+    border: 2px solid #f0c33d;
+    color: #f0c33d;
+    transition-duration: 0s;
+    cursor : pointer; /*it changes the mouse in a hand to show the user than he can click*/
+}
+
+
 #map {
 	height: 300px;
 	width: 500px;
