@@ -26,7 +26,6 @@ function showPosition(position)
 		responseData.json())
   	.then(responseData =>{
 		show.innerHTML='We guess you are now in '+responseData.name +', Click the button to find the most close Pasta.';
-		photo.src= 'img/' + responseData.weather[0].main+ '.jpg';
 	})
 }
 
